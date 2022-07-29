@@ -31,7 +31,7 @@ qp         t\io,_           `~"TOOggQV""""        _,dg,_ =PIQHib.
 
 @Project-name: TBA
 @Project-Tagline: TBA
-@author: Mark Jayson Mayo, Hanna Christine D. Galon, Sean Michael Dirige, Coleen Agsao
+@author: Mark Jayson Mayo, Hanna Christine D. Galon, Sean Michael Dirige, Coleen Therese Agsao
 @Group-numnber: 6
 @date-started: 07-28-2022
 
