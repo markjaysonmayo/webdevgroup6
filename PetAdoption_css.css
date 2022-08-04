@@ -1,23 +1,26 @@
 html, body{
-    height: 100%;
-    width: 100%;
     background-color: #fff5ed;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0px 20px;
     background-color: #fff5ed;
     color: rgb(0, 0, 0);
-
-
 }
 
 .left-top-elements{
     display: flex;
 }
+
 #login-signup--btns{
     margin-top: 20px;
 }
@@ -50,8 +53,10 @@ nav {
     color: #ff7a49;
     border: 1px solid #ff7a49;
 }
+
 .menu{
     margin-top: 30px;
+    font-family: sans-serif;
 }
 
 .logotitle{
@@ -62,6 +67,7 @@ nav {
 }
 .adopttitle_container{
     margin-top: 21px;
+    
 }
 
 .adopttitle{
@@ -82,6 +88,10 @@ ul{
 
 a {
     text-decoration: none;
+    color: #363055;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    font-size: 16px;
 
 }
 
@@ -98,11 +108,6 @@ li{
     color: #ff7a49
 }
 
-* {
-    padding: 0;
-    margin: 0;
-}
-
 img {
     width: 750px;
     height: auto;
@@ -110,27 +115,27 @@ img {
     margin: -275px 100px 0 0px;
 }
 
+#page-pic img{
+    margin-top: -420px;
+}
 #main-section{
     background-color: #fff5ed;
 }
 
-
-
 #main-headline{
     background-color: #fff5ed;
-    margin-left: 80px;
+    margin-left: 150px;
 }
 
 #value-prop{
-    margin-top: 50px;
+    margin-top: 200px;
     color: #363055;
 }
 
 #value-prop h1{
-    font-size: 50px;
     color: #363055;
     margin-bottom: 20px;
-    font-size: 60px;
+    font-size: 80px;
 }
 
 span{
