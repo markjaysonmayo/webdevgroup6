@@ -11,8 +11,8 @@ nav {
     padding: 20px;
     background-color: #fff5ed;
     color: rgb(0, 0, 0);
-    
-    
+
+
 }
 
 .left-top-elements{
@@ -103,6 +103,13 @@ li{
     margin: 0;
 }
 
+img {
+    width: 750px;
+    height: auto;
+    float: right;
+    margin: -275px 100px 0 0px;
+}
+
 #main-section{
     background-color: #fff5ed;
 }
@@ -167,3 +174,4 @@ button{
     border: 1px solid #363055;
     color: #fff5ed;
 }
+
