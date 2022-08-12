@@ -4,6 +4,11 @@ html, body{
     background-color: #fff5ed;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -85,6 +90,10 @@ ul{
 
 a {
     text-decoration: none;
+    color: #363055;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    font-size: 16px;
 
 }
 
@@ -122,6 +131,12 @@ button{
 }
 
 .secondrow{
+    display: flex;
+    column-gap: 70px;
+    align-content: center;
+}
+
+.thirdrow{
     display: flex;
     column-gap: 70px;
     align-content: center;
