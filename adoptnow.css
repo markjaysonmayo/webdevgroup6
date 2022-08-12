@@ -1,6 +1,4 @@
 html, body{
-    height: 100%;
-    width: 100%;
     background-color: #fff5ed;
 }
 
@@ -13,11 +11,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0px 20px;
     background-color: #fff5ed;
     color: rgb(0, 0, 0);
-    
-    
 }
 
 .left-top-elements{
@@ -93,7 +89,7 @@ a {
     color: #363055;
     font-family: arial,sans-serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
 
 }
 
@@ -108,6 +104,10 @@ li{
     font-weight: bolder;
     font-size: 20px;
     color: #ff7a49
+}
+.menu{
+    margin-top: 30px;
+    font-family: sans-serif;
 }
 
 button{
@@ -126,19 +126,19 @@ button{
 
 .firstrow{
     display: flex;
-    column-gap: 70px;
+    column-gap: 100px;
     align-content: center;
 }
 
 .secondrow{
     display: flex;
-    column-gap: 70px;
+    column-gap: 100px;
     align-content: center;
 }
 
 .thirdrow{
     display: flex;
-    column-gap: 70px;
+    column-gap: 100px;
     align-content: center;
 }
 
