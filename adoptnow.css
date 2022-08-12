@@ -1,0 +1,157 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #fff5ed;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff5ed;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+.left-top-elements{
+    display: flex;
+}
+
+#login-signup--btns{
+    margin-top: 20px;
+}
+
+#signup-btn{
+    background-color: #fff5ed;
+    border: 1px solid #363055;
+    color: #363055;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#signup-btn:active{
+    background-color: #363055;
+    border: 1px solid #363055;
+    color: #fff5ed;
+}
+
+#login-btn{
+    background-color: #ff7a49;
+    border: 1px solid #ff7a49;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+}
+
+#login-btn:active{
+    background-color: #fff5ed;
+    color: #ff7a49;
+    border: 1px solid #ff7a49;
+}
+.menu{
+    margin-top: 10px;
+}
+
+.logotitle{
+    display: flex;
+}
+
+.adoptlogo_container{
+    margin-left: 20px;
+}
+
+.adopttitle_container{
+    margin-top: 21px;
+}
+
+.adopttitle{
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #363055;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 3em;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.adoptlogo{
+    height: 50px;
+    width: auto;
+}
+
+li{
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #ff7a49
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 13px;
+}
+
+#main-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.firstrow{
+    display: flex;
+    column-gap: 70px;
+    align-content: center;
+}
+
+.secondrow{
+    display: flex;
+    column-gap: 70px;
+    align-content: center;
+}
+
+.petcontainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+    padding: 20px;
+    height: auto;
+    width: 400px;
+
+    border-radius: 20px;
+    background-color: #ff7a49;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.imagecontainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+
+    padding: 10px;
+    height: auto;
+    width: 380px;
+    background-color: #fff5ed;
+
+
+    border-radius: 0px;
+}
+
