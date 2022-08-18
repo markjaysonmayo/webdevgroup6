@@ -1,0 +1,293 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.testimonials-heading{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-heading h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    background-color: #ff7a49;
+    color: #fff5ed;
+    padding: 10px 20px;
+}
+
+.testimonials-heading h2{
+    font-size: 1.3rem;
+    color: #252525;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.testimonial-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.testimonial-box{
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: #fff5ed;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.profile-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.profile-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.name-username{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-username strong{
+    color: #3d3d3d;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.name-username span{
+    color: #979797;
+    font-size: 0.8rem;
+}
+
+.reviews {
+    color: #ff7a49;
+}
+
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.furowner-comment p{
+    font-size: 0.9rem;
+}
+
+.testimonial-box:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+html, body{
+    background-color: #fff5ed;
+    color: #4b4b4b;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: #fff5ed;
+    color: rgb(0, 0, 0);
+}
+
+.left-top-elements{
+    display: flex;
+}
+
+#login-signup--btns{
+    margin-top: 20px;
+}
+
+#signup-btn{
+    background-color: #fff5ed;
+    border: 1px solid #363055;
+    color: #363055;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#signup-btn:active{
+    background-color: #363055;
+    border: 1px solid #363055;
+    color: #fff5ed;
+}
+
+#login-btn{
+    background-color: #ff7a49;
+    border: 1px solid #ff7a49;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+}
+
+#login-btn:active{
+    background-color: #fff5ed;
+    color: #ff7a49;
+    border: 1px solid #ff7a49;
+}
+
+.menu{
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.logotitle{
+    display: flex;
+}
+.adoptlogo_container{
+    margin-left: 20px;
+}
+.adopttitle_container{
+    margin-top: 21px;
+
+}
+
+.adopttitle{
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #363055;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 3em;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #363055;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.adoptlogo{
+    height: 50px;
+    width: auto;
+}
+
+li{
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #ff7a49
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+#page-pic img{
+    margin-top: -420px;
+}
+#main-section{
+    background-color: #fff5ed;
+}
+
+#main-headline{
+    background-color: #fff5ed;
+    margin-left: 150px;
+}
+
+#value-prop{
+    margin-top: 200px;
+    color: #363055;
+}
+
+#value-prop h1{
+    color: #363055;
+    margin-bottom: 20px;
+    font-size: 80px;
+}
+
+span{
+    color: #ff7a49;
+}
+#value-prop h3{
+    margin-bottom: 30px;
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 13px;
+}
+
+#sched-btn{
+    background-color: #ff7a49;
+    border: 0;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+}
+
+#sched-btn:active{
+    background-color: #fff5ed;
+    color: #ff7a49;
+    border: 1.5px solid #ff7a49;
+}
+
+#pricing-btn{
+    background-color: #fff5ed;
+    border: 1px solid #363055;
+    color: #363055;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#pricing-btn:active{
+    background-color: #363055;
+    border: 1px solid #363055;
+    color: #fff5ed;
+}
